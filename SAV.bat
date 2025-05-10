@@ -38,10 +38,10 @@ echo.
 
 :: Validação e configuração da versão
 if "!op_vesao!"=="0" goto limpar_sair
-if "!op_vesao!"=="1" set "ISCOBOL=C:\isCOBOL2024R2"& goto configure_java
-if "!op_vesao!"=="2" set "ISCOBOL=C:\isCOBOL2023R2"& goto configure_java
-if "!op_vesao!"=="3" set "ISCOBOL=C:\isCOBOL2020R2"& goto configure_java
-if "!op_vesao!"=="4" set "ISCOBOL=C:\isCOBOL2018R2"& goto configure_java
+if "!op_vesao!"=="1" set "ISCOBOL=C:\isCOBOL\2024R2"& goto configure_java
+if "!op_vesao!"=="2" set "ISCOBOL=C:\isCOBOL\2023R2"& goto configure_java
+if "!op_vesao!"=="3" set "ISCOBOL=C:\isCOBOL\2020R2"& goto configure_java
+if "!op_vesao!"=="4" set "ISCOBOL=C:\isCOBOL\2018R2"& goto configure_java
 echo Opcao invalida! Tente novamente.
 timeout /t 2 >nul
 goto menu_versao
